@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="second.css" />
+    <title>login</title>
+  </head>
+  <body>
+    <div class="outer-box">
+      <div class="inner-box">
+        <div class="row-1">
+          <div class="x" onclick="Close()">✕</div>
+          <div class="steps">Step 2 of 5</div>
+        </div>
+        <div class="row-2">
+          <div class="create">
+            <span class="caps">C</span>ustomise your experience
+          </div>
+          <div class="input-container">
+            <div class="sub-heading">
+              Track where you see Twitter content across the web
+            </div>
+          </div>
+        </div>
+        <div class="row-3">
+          <div class="input-container">
+            <p class="para">
+              Twitter uses this data to personalise your experience. This web
+              browsing history will never be stored with your name, email, or
+              phone number.
+            </p>
+            <div>
+              <input type="checkbox" class="checkbox" />
+            </div>
+            <div class="calander-outer">
+              <div class="calander-inner">
+                <div class="content">
+                  By signing up, you agree to our
+                  <span class="link">Terms, Privacy Policy </span>and
+                  <span class="link">Cookie Use</span>. Twitter may use your
+                  contact information, including your email address and phone
+                  number for purposes outlined in our Privacy Policy.
+                  <span class="link">Learn more</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row-4">
+          <div class="btn-container">
+            <a href="/third.html">
+              <button class="next-btn">Next</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const Close = () => {
+        window.location.replace("https://twitter.com/");
+      };
+    </script>
+  </body>
+</html>

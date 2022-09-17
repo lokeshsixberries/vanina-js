@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@900;700&family=Montserrat:wght@300&display=swap");
+body {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: black;
+}
+.outer-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.inner-box {
+  height: 630px;
+  width: 580px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 1px 1px 3px gray;
+  display: block;
+  padding: 10px;
+}
+
+.row-1 {
+  display: flex;
+  padding: 0px;
+  justify-content: space-between;
+}
+
+.x {
+  font-size: 20px;
+  padding: 5px 7px !important;
+  font-family: sans-serif;
+  font-weight: 400;
+  transition: 0.5s;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.x:hover {
+  background-color: lightgray;
+}
+
+.steps {
+  position: relative;
+  left: -420px;
+  top: 5px;
+  font-family: "Merienda", cursive;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.row-2 {
+  position: relative;
+  left: 65px;
+  top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 600px;
+}
+
+.create {
+  font-family: "Merienda", cursive;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.input-container {
+  display: block !important;
+}
+
+.input {
+  width: 75%;
+  height: 50px;
+  margin-top: 30px;
+  border-radius: 4px;
+  border: 1px solid lightgray;
+  outline: none;
+  font-size: 16px;
+  font-family: sans-serif;
+  padding-left: 10px;
+  font-weight: 500;
+}
+
+.input:focus {
+  outline: 2px solid rgb(29, 155, 240);
+}
+
+.use-phone-link {
+  position: relative;
+  left: 320px;
+  top: 10px !important;
+  font-size: 15px !important;
+  color: rgb(29, 155, 240);
+  font-family: sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+}
+.use-phone-link:hover {
+  text-decoration: underline;
+}
+
+.row-3 {
+  position: relative;
+  left: 65px;
+  top: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 600px;
+}
+
+.date-of-birth {
+  font-family: "Merienda", cursive;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  margin-top: 30px !important;
+}
+
+.para {
+  width: 430px;
+  font-family: "Merienda", cursive;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  /* text-align: justify; */
+  position: relative;
+  top: -7px;
+  color: rgb(83, 100, 113);
+}
+
+.calander-inner {
+  display: flex;
+}
+.month-container {
+  width: 180px;
+  margin-right: 10px;
+}
+.day-container {
+  width: 100px;
+  margin-right: 10px;
+}
+
+.year-container {
+  width: 140px;
+  margin-right: 10px;
+}
+
+.month,
+.day,
+.year {
+  /* padding: 10px 20px; */
+  font-family: "Merienda", cursive;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: white;
+  font-weight: 550;
+  border: 1px solid lightgray;
+  outline: none;
+  width: 100%;
+  padding: 18px 10px;
+  margin-right: 10px;
+  height: 60px;
+}
+
+.month:focus,
+.day:focus,
+.year:focus {
+  outline: 2px solid rgb(29, 155, 240);
+}
+
+.month option,
+.day option,
+.year option {
+  text-align: left !important;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.row-4 {
+  position: relative;
+  left: 65px;
+  top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 600px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  position: relative;
+  top: 70px;
+  width: 450px;
+}
+
+.next-btn-disabled {
+  width: 100%;
+  padding: 17px 12px;
+  border-radius: 20px;
+  outline: none;
+  font-size: 16px;
+  background-color: rgb(155, 155, 155);
+  color: white;
+  font-family: "Merienda", cursive;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  bottom: -115px;
+}
+
+.next-btn {
+  width: 100%;
+  padding: 17px 12px;
+  border-radius: 20px;
+  outline: none;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  font-family: "Merienda", cursive;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  bottom: -115px;
+}
+
+@media screen and (max-width: 602px) {
+  .outer-box {
+    display: none;
+  }
+}

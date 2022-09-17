@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="third.css" />
+    <title>login</title>
+  </head>
+  <body>
+    <div class="outer-box">
+      <div class="inner-box">
+        <div class="row-1">
+          <div class="x" onclick="Close()">✕</div>
+          <div class="steps">Step 3 of 5</div>
+        </div>
+        <div class="row-2">
+          <div class="create">Create your account</div>
+          <div class="input-container">
+            <input name="name" class="input" placeholder="Name" value="Lucky" />
+            <input
+              name="name"
+              class="input"
+              placeholder="Email"
+              value="test@code.com"
+            />
+            <input
+              name="name"
+              class="input"
+              placeholder="Birth Date"
+              value="2 Febuary 2001"
+            />
+          </div>
+        </div>
+        <div class="row-3">
+          <div class="input-container">
+            <p class="para">
+              By signing up, you agree to the
+              <span class="link">Terms of Service</span> and
+              <span class="link">Privacy Policy</span>, including
+              <span class="link">Cookie Use</span>. Twitter may use your contact
+              information, including your email address and phone number for
+              purposes outlined in our Privacy Policy, like keeping your account
+              secure and personalising our services, including ads.
+              <span class="link">Learn more</span>. Others will be able to find
+              you by email or phone number, when provided, unless you choose
+              otherwise <span class="link">here</span>.
+            </p>
+          </div>
+        </div>
+
+        <div class="row-4">
+          <div class="btn-container">
+            <button class="next-btn" onclick="Submit()">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const Submit = () => {
+        const val = alert("Sign up Successfully Done !!!");
+        if (true) {
+          window.location.replace("https://twitter.com/i/flow/login");
+        }
+      };
+    </script>
+    <script>
+      const Close = () => {
+        window.location.replace("https://twitter.com/");
+      };
+    </script>
+  </body>
+</html>
